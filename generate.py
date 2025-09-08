@@ -52,5 +52,5 @@ def generate_image(prompt, output_path="generated.png"):
     display_response(response)
 
 if __name__ == "__main__":
-    prompt = "Erstelle ein Bild gemäss folgender Anweisung: Ein Astronaut betritt ein Cafe in Zürich. Zeige die Reaktion der Menschen und ihren Hunden."
-    generate_image(prompt, output_path="astronaut_zh.png")
+    prompt = "Create a realistic image of a small tattoo of an angel on a womans shoulder. It must look like a real photo."
+    generate_image(prompt, output_path="tattoo-2.png")
